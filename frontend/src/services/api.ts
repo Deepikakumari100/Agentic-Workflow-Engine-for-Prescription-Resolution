@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-const fallbackHost = `${window.location.protocol}//${window.location.hostname}:8005/api/v1`;
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || fallbackHost;
+const API_BASE_URL = "https://careweave-ai.onrender.com/api/v1";
 
 console.log('[API] baseURL', API_BASE_URL);
 
